@@ -1,0 +1,140 @@
+@charset "utf-8";
+
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+  
+}
+
+.container {
+  width: 960px;
+}
+
+nav {
+  background-color: #c4ba95;
+  overflow: hidden;
+  height: 80px;
+  line-height: 80px;
+}
+
+nav:: after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.brand {
+  float: left;
+  font-size: 30px;
+  margin-left: 25px;
+  text-transform: uppercase;
+}
+
+.nav {
+  float: right;
+  height: 80px;
+  margin-right: 25px;
+}
+
+.nav a:hover{
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.readable-hidden {
+  font-size: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.gnb {
+  list-style-type: none;
+}
+
+ul.gnb > li {
+  font-size: 18px;
+  float: left;
+  margin-left: 15px;
+}
+
+ul.gnb > li > a {
+  text-decoration: none;
+  color: #181818;
+}
+
+header {
+  background: url(https://roshrulez.files.wordpress.com/2012/01/music-wallpapers-singing-panther-free-wallpaper1.jpg);
+  height: 600px;
+  background-size: cover;
+  color: white;
+  padding: 0 100px;
+}
+
+.soundlion {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.maintitle {
+  text-align: center;
+  font-size: 100px;
+}
+
+.maintext {
+  text-align: center;
+  font-size: 20px;
+}
+
+section {
+  height: 800px;
+  background-color: #beb98f;
+  overflow: hidden;
+}
+
+section:: after {
+  content: '';
+  display: block;
+  clear: left;
+}
+
+article {
+  float: left;
+  width: 320px;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+article > p {
+  font-size: 18px;
+  font-weight: 100;
+  margin-top: 40px;
+}
+
+footer {
+  color: black;
+  height: 60px;
+  line-height: 60px;
+  background-color: #f1e291;
+  text-align: center;
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+hr {
+  width: 30%;
+  background-color: #654321;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+section article img {
+  width: 300px;
+  height: 300px;
+}
