@@ -72,13 +72,14 @@ ul.gnb > li > a {
 }
 
 .soundlion {
-  background: url(https://roshrulez.files.wordpress.com/2012/01/music-wallpapers-singing-panther-free-wallpaper1.jpg);
+  background: url(http://www.kingarthurflour.com/guides/pie-baking/images/pie-baking-hero.jpg);
   height: 600px;
   background-size: cover;
   color: white;
   padding: 0 100px;
   z-index: 9999;
   font-family: 'Fjalla One', sans-serif;
+  padding-top: 80px;
 }
 
 .soundlion {
@@ -165,9 +166,4 @@ h2, h3, h4 {
   font-weight: 800;
   text-transform: uppercase;
   font-family: 'open-sans';
-}
-
-.soundlion, section, footer {
-  position: relative;
-  top: 80px;
 }
